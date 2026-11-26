@@ -5,3 +5,8 @@
 build/
 /captures
 .kotlin/
+
+# Never commit exported WhatsApp notification logs (repo is public)
+*.jsonl
+wa-dump*
+exports/
